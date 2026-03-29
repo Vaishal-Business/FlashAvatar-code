@@ -10,9 +10,9 @@ cfg = CN()
 
 # --- Model Paths ---
 # Updated to point to the commercially usable open model
-cfg.flame_geom_path = "model_data/flame2023_open.pkl"
+cfg.model_path = "model_data/flame2023_Open.pkl"
 cfg.flame_lmk_path = "model_data/flame_static_embedding.pkl"
-cfg.flame_mediapipe_path = "model_data/mediapipe_landmark_embedding.npz"
+cfg.flame_mediapipe_path = "flame/mediapipe/mediapipe_landmark_embedding.npz"
 
 # --- Model Dimensions ---
 # Standard FLAME 2023 Open settings
